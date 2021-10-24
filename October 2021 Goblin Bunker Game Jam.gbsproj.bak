@@ -586,7 +586,7 @@
                 1,
                 1,
                 1,
-                1,
+                0,
                 1,
                 1,
                 1,
@@ -1349,7 +1349,7 @@
                                         "id": "e407cccd-febe-4372-b9c0-691ef113d018",
                                         "command": "EVENT_SET_VALUE",
                                         "args": {
-                                            "variable": "5",
+                                            "variable": "L0",
                                             "value": {
                                                 "type": "variable",
                                                 "value": "L1"
@@ -4258,48 +4258,7 @@
                     "isPinned": false,
                     "collisionGroup": "",
                     "script": [],
-                    "startScript": [
-                        {
-                            "id": "cc5dd695-0664-421b-9b21-12fca2c7c8c2",
-                            "command": "EVENT_IF_VALUE",
-                            "args": {
-                                "variable": "0",
-                                "operator": "!=",
-                                "comparator": "0",
-                                "__collapseElse": false,
-                                "__disableElse": true
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "id": "d224d8d7-87ff-4d89-9e7a-ec38eb505c3f",
-                                        "command": "EVENT_ACTOR_SET_FRAME",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "frame": {
-                                                "type": "number",
-                                                "value": 1
-                                            }
-                                        }
-                                    },
-                                    {
-                                        "id": "c7503f86-3380-42f0-a0b0-5c9ac5f1f5d5",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "false": [
-                                    {
-                                        "id": "c08c200d-9b3a-410e-bd08-f172de146fed",
-                                        "command": "EVENT_END"
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "id": "af01cbf6-f0e7-47cf-9c93-15a8b9e41cdf",
-                            "command": "EVENT_END"
-                        }
-                    ],
+                    "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
                     "hit2Script": [],
@@ -4321,48 +4280,7 @@
                     "isPinned": false,
                     "collisionGroup": "",
                     "script": [],
-                    "startScript": [
-                        {
-                            "id": "57c1aedd-c2e5-481e-9091-c0e6e58926ab",
-                            "command": "EVENT_IF_VALUE",
-                            "args": {
-                                "variable": "2",
-                                "operator": "!=",
-                                "comparator": "0",
-                                "__collapseElse": false,
-                                "__disableElse": true
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "id": "2e3c1917-2d97-405b-b347-67eaa793946b",
-                                        "command": "EVENT_ACTOR_SET_FRAME",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "frame": {
-                                                "type": "number",
-                                                "value": 1
-                                            }
-                                        }
-                                    },
-                                    {
-                                        "id": "fe3540bf-03e3-4393-9f25-698ef1ff2669",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "false": [
-                                    {
-                                        "id": "aa1fd423-d44d-4cda-9a2b-6217e7f9a8b6",
-                                        "command": "EVENT_END"
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "id": "7f061e41-5b25-4748-839d-821aeb3df61a",
-                            "command": "EVENT_END"
-                        }
-                    ],
+                    "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
                     "hit2Script": [],
@@ -4372,7 +4290,7 @@
                     "y": 6
                 },
                 {
-                    "name": "Plate Checkbox",
+                    "name": "Fork Checkbox",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "61d63847-5d55-4d60-903e-b252d8ba3dbf",
@@ -4384,48 +4302,7 @@
                     "isPinned": false,
                     "collisionGroup": "",
                     "script": [],
-                    "startScript": [
-                        {
-                            "id": "8e542804-5e79-4d27-96a4-95e48b9ddf11",
-                            "command": "EVENT_IF_VALUE",
-                            "args": {
-                                "variable": "3",
-                                "operator": "!=",
-                                "comparator": "0",
-                                "__collapseElse": false,
-                                "__disableElse": true
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "id": "832c2625-2e1a-4e5b-b9d6-e09926316985",
-                                        "command": "EVENT_ACTOR_SET_FRAME",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "frame": {
-                                                "type": "number",
-                                                "value": 1
-                                            }
-                                        }
-                                    },
-                                    {
-                                        "id": "b0145e60-19f1-4af5-ae29-4948af16a7ee",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "false": [
-                                    {
-                                        "id": "4167c04f-d601-4542-acff-0a5caf6ff758",
-                                        "command": "EVENT_END"
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "id": "07415786-400b-42af-a902-e07eeee0b6aa",
-                            "command": "EVENT_END"
-                        }
-                    ],
+                    "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
                     "hit2Script": [],
@@ -4435,7 +4312,7 @@
                     "y": 9
                 },
                 {
-                    "name": "Cup Checkbox",
+                    "name": "Fork Checkbox",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "61d63847-5d55-4d60-903e-b252d8ba3dbf",
@@ -4447,48 +4324,7 @@
                     "isPinned": false,
                     "collisionGroup": "",
                     "script": [],
-                    "startScript": [
-                        {
-                            "id": "9c46e744-bfb4-4ee9-ab9b-955fa330ee73",
-                            "command": "EVENT_IF_VALUE",
-                            "args": {
-                                "variable": "4",
-                                "operator": "!=",
-                                "comparator": "0",
-                                "__collapseElse": false,
-                                "__disableElse": true
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "id": "8ac63b61-2b00-4ece-b1af-d9444b83035f",
-                                        "command": "EVENT_ACTOR_SET_FRAME",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "frame": {
-                                                "type": "number",
-                                                "value": 1
-                                            }
-                                        }
-                                    },
-                                    {
-                                        "id": "ba847bfb-3a3d-47ea-b40d-630939cc7277",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "false": [
-                                    {
-                                        "id": "f131315e-9524-4fa8-acb7-eb1d605bd120",
-                                        "command": "EVENT_END"
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "id": "20c2e123-0117-46af-8994-8a2181db860c",
-                            "command": "EVENT_END"
-                        }
-                    ],
+                    "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
                     "hit2Script": [],
@@ -4498,7 +4334,7 @@
                     "y": 12
                 },
                 {
-                    "name": "Knife Checkbox",
+                    "name": "Fork Checkbox",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "61d63847-5d55-4d60-903e-b252d8ba3dbf",
@@ -4510,48 +4346,7 @@
                     "isPinned": false,
                     "collisionGroup": "",
                     "script": [],
-                    "startScript": [
-                        {
-                            "id": "19b73405-d0ba-4405-a515-7603cb37265c",
-                            "command": "EVENT_IF_VALUE",
-                            "args": {
-                                "variable": "1",
-                                "operator": "!=",
-                                "comparator": "0",
-                                "__collapseElse": false,
-                                "__disableElse": true
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "id": "63b4d7f1-c046-4b68-b65f-a399ff36a43b",
-                                        "command": "EVENT_ACTOR_SET_FRAME",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "frame": {
-                                                "type": "number",
-                                                "value": 1
-                                            }
-                                        }
-                                    },
-                                    {
-                                        "id": "be596f2f-4329-4940-b571-327856cc1263",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "false": [
-                                    {
-                                        "id": "f09571a5-ee00-4418-b490-fcca5c22a5bc",
-                                        "command": "EVENT_END"
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "id": "eeb3abfd-54db-4ba3-8a9f-055f240a8d12",
-                            "command": "EVENT_END"
-                        }
-                    ],
+                    "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
                     "hit2Script": [],
@@ -7273,6 +7068,10 @@
             "name": "Cup ID"
         },
         {
+            "id": "95a15288-bdaf-4d69-940c-60700a88a70c__L0",
+            "name": "Grab Artifact Choice"
+        },
+        {
             "id": "5",
             "name": "Current Selected Artifact"
         },
@@ -7317,8 +7116,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1925,
-        "worldScrollY": 337,
+        "worldScrollX": 2950,
+        "worldScrollY": 160,
         "zoom": 300,
         "customColorsEnabled": true,
         "customHead": "",
